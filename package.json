@@ -1,12 +1,14 @@
 {
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "test": "jest",
-    "test:ci": "jest --ci"
+    "test:ci": "jest --ci",
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export",
+    "build:azure": "npm run build && npm run export"
   },
   "dependencies": {
     "@chakra-ui/react": "^3.8.1",
@@ -30,4 +32,6 @@
     "jest-environment-jsdom": "29.7.0",
     "typescript": "5.3.3"
   }
+
+  
 }
