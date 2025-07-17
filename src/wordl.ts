@@ -4,7 +4,7 @@ export enum LetterClass {
     Unevaluated,
     NotPresent,
     Misplaced,
-    Located
+    Located   
 }
 
 const allDialects = ['english', 'english/british', 'english/american', 'english/canadian'];
