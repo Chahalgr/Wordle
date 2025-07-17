@@ -1,32 +1,38 @@
-# Homework 4
+# Wordle Clone — React + Next.js
 
-Wordl:  A knockoff of the popular Wordle game at the New York Times.
+A fully functional **Wordle clone** built using **React**, **TypeScript**, and **Next.js**. It features custom game logic, interactive keyboard UI, and user feedback with toasts using **Chakra UI**. The app is deployed using **Azure Static Web Apps**.
 
-This project uses Next.js with TypeScript and Jest.
+🔗 **Live Demo:** [Play Wordle](https://brave-sand-05df69f10.1.azurestaticapps.net/)
+
+---
+
+## 🚀 Features
+
+- Custom Wordle logic with random word generation
+- Keyboard input + on-screen keyboard
+- Color-coded feedback (green, yellow, gray)
+- Toast notifications for invalid input, win/loss status
+- Responsive and minimal UI with Chakra UI
+- Static export and deployment on Azure
+
+---
+
+## 🛠️ Tech Stack
+
+- **Next.js** (App router)
+- **React** + **TypeScript**
+- **Chakra UI**
+- **Azure Static Web Apps**
+
+---
+
+## 📫 Contact Me
+
+If you'd like to connect, discuss this project, or collaborate on something cool, feel free to reach out:
+
+- 📧 **Email**: gurleen4@uwm.edu  
+- 💼 **LinkedIn**: [Gurleen Singh](https://www.linkedin.com/in/-gurleen-singh/)
 
 
-```bash
-npm run test
-```
 
-
-```bash
-npm run dev
-```
-
-This brings up a web server which will compile the code on the fly, and update when the source files change.
-
-
-To create an optimized version of the project:
-```bash
-npm run build
-```
-
-To start up a server for the built project:
-```bash
-npm run start
-```
-
-
-*Place any acks here.*
 
