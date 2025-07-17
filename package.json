@@ -1,15 +1,12 @@
 {
   "private": true,
   "scripts": {
-    "start": "next start",
-    "lint": "next lint",
-    "test": "jest",
-    "test:ci": "jest --ci",
     "dev": "next dev",
     "build": "next build",
-    "export": "next export",
-    "build:azure": "npm run build && npm run export"
-  },
+    "start": "next start",
+    "build:azure": "next build"
+  }
+  ,
   "dependencies": {
     "@chakra-ui/react": "^3.8.1",
     "@emotion/react": "^11.14.0",
