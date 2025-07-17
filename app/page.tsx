@@ -311,7 +311,7 @@ export default function Page()
     <>
     <div data-testid="top-level" onKeyDown = {onKeyDown} tabIndex={-1} className="App">
       <div className="App-header">
-        <h1 style={{textAlign: 'center', fontSize: '24px', color : 'black'}}>Wordl</h1>
+        <h1 style={{textAlign: 'center', fontSize: '24px', color : 'black'}}>Wordle</h1>
       </div>
       <main>
         <Show />   
