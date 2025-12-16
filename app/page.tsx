@@ -292,6 +292,13 @@ export default function Page()
           colorKeyboard(e, rowIndex, colIndex);
         })
       })
+
+      if (word !== target && currRow === numGuesses - 1) {
+        toaster.create({
+          description: `You lost! The word was ${target}`,
+          type: "info",
+        });
+      }
       setCurrRow((prev) => ++prev);
     }
   }
