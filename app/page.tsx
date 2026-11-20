@@ -23,6 +23,7 @@ const DEFAULT_GUESSES = 6;
 export default function Page()
 {
   const [target] = useState(randomWord(DEFAULT_LENGTH));
+  console.log("Target word:", target); // For debugging purposes, you can remove this later
   const inputRef = useRef<HTMLInputElement>(null);
   const wordLength = DEFAULT_LENGTH;
   const numGuesses = DEFAULT_GUESSES;
